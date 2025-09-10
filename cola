@@ -1,0 +1,86 @@
+TAGS DO HTML 
+<HTML>->começa um programa em html
+
+</HTML>->termina o pragrama em html 
+<head>->começa a cabeça do programa
+    (configurações)
+</head>->termina as configurações
+<body>->começa o corpo do site
+</body>->termina o corpo do site
+<p>->começa um paragrafo
+</p>->termina um paragrafo
+<style>->começa a estilização do site(efeitos visuais)
+</style>->termina os efeitos visuais
+<h1>->começa com o texto de importancia
+</h1>->termina o texto de importrancia
+<h6>->começa um texto de importancia 6
+</h6>->termina um texto de importancia 6
+<img>->coloca uma imagem no site
+<link rel="stylesheet" href="css/style.css">->Conecta o html com arquivos de estabilização
+<form> ->começa um formulário
+</form>->Termina um formulário
+<input>->Cria um campo para o usuário poder interagir
+<select>->começa um campo de multipla escolha
+</select>->termina um campo de multipla escolha
+<option>->começa um opção dentro do select
+</option>->termina uma opção dentro do select
+<textarea>->começa um campo grande para textos
+</textarea>->termina um campo grande para textos
+<label>->fim da indica um texto  para se conectar
+</label>->fim da indicação um texto para se conectar
+<header>->semelhante a uma div porem usava no inicio
+<main>->semelhante a uma div prem usada no meio
+<footer>->semelhante a uma div porem usada no fim
+<select>->semelhante a uma div porem usada em um grupo grande
+<nav>->indica a navegação principal do site
+<ul>->unorded list (lista não ordenada)
+<ol>->orded list (list ordenada)
+<li>->list item -> item dentro de uma lista
+<!--Comentario aqui>
+
+--------------------------
+sub comando do html(parametros ou atributos)
+src=""-> permite escolher a imagem dentro do IMG 
+href=""->permite uma referencia com arquivo externo
+class=""->Cria um 'apelido'que classifica o elemento
+id=""->Cria um "apelido" que idenifica o elemento
+--------------------------
+Comandos de CSS
+
+comando{
+   color:red;->muda a cor do texto
+   font-size:30px;->muda o tamanho do texto
+   font-weight:900;->aplica negrito no texto
+   font-family:sans;->muda a fonte do texto
+    background-color:red;->muda a cor de fundo
+    width:800 ou 50%;->largura
+    height:500;->Altura
+    padding-top:50 px -> afasta o elemento em cima(dentro)
+    padding-botton:50px ->afasta o elemento em abaixo(dentro)
+    padding-left:50 px->afasta o elemento na esquerda(dentro)
+    padding-rigth:50 px->afasta o elemento na direita(dentro)
+    margin-top:50px->afasta o elementoem cima(fora)
+    margin-botton:50px->afasta o elemento em baixo(fora)
+    margin-left:50px->afasta o elemento na esquerda(fora)
+    margin-rigth:50px->afasta o elementona direta(fora)
+    margin:50 px;afasta o elementos em todos os lados(fora)
+    border:5 px solid blue; ->espessura tipo cor
+    backgrond-color:red;->muda a cor de fundo
+    background:linear grandient ->conbinação de cores(cssgradient)
+    background-imagem:url(../imagem/nomeDaImagem.jpg)->imagem de fundo
+    background-size:cover -> estica a imagem até o fim da tela 
+    background-repeat:no-repeat -> para não repetir o background
+    text-align -> center->centraliza;
+    text-align -> left->move o texto para esquerda;
+    text-align -> right->move para a direita;
+    box-sizing:bordex-box;->faz com que o calculo do programa seja feito para dentro do
+    elemento quando aplicado bordas ou padding
+    text-align:justify->distribui o texto uniforme na tela;
+    box-sizing:border-box;->faz com que o calculo do programa seja feito para dentro do elemento quando aplicamos bordas ou padding
+    display:inline-block;faz com que os elementos fiquem em linha (usado junto do li)
+    text-transform:uppercase;->transforma o texto em maiusculo
+    /*comentario aqui */
+}
+
+
+
